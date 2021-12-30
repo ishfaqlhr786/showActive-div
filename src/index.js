@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MultipleDivs from './MultipleDivs';
+import { Muldiv } from './Muldiv';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Muldiv />
   </React.StrictMode>,
   document.getElementById('root')
 );
